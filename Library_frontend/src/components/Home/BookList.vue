@@ -25,7 +25,7 @@
               <BookItem
                 v-for="book in books"
                 :key="book.title"
-                :book="book" <!-- Passe o objeto 'book' inteiro para o BookItem -->
+                :book="book" 
               />
             </div>
           </section>

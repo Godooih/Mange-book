@@ -7,7 +7,7 @@
           <li v-for="item in menuItems" :key="item">{{ item }}</li>
         </ul>
         <div class="image-container">
-          <img src="../../assets/img/banner.png" alt="Imagem principal" class="main-image" />
+          <img src="../../src/assets/img/banner.png" alt="Imagem principal" class="main-image" />
         </div>
       </aside>
     </div>
